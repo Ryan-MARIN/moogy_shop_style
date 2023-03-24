@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Liste des restaurants</title>
+  </head>
+  <body>
+    <h1>Liste des restaurants</h1>
+    <form method="post">
+      <select name="trie">
+        <option value="name">alphabétique</option>
+        <option value="restaurant_id">ordre d insertion</option>
+        <option value="_id">restaurant_id</option>
+        <option value="cuisine">type de cuisine</option>
+        <option value="borough">arrondissement</option>
+        <option value="address->zipcode">code postal</option>
+      </select>
+      <select name="ordre">
+        <option value="1">croissant</option>
+        <option value="-1">decroissant</option>
+      </select>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Cuisine</th>
+        <th>Borough</th>
+        <th>Zipcode</th>
+        <th>restaurant_id</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
