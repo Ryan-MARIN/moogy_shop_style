@@ -1,11 +1,48 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Redirection en HTML</title>
-
-<meta http-equiv="refresh" content="0; ./list_restaurants/list_restaurants.html">
-</head>
-
-<body>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ma grille de produits</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="search-bar">
+        <input type="text" placeholder="Recherche..." />
+        <button><i class="fa fa-search"></i></button>
+      </div>
+    </header>
+    <main>
+      <div class="filters">
+        <h2>Filtrer par :</h2>
+        <ul>
+          <li><a href="#">Option 1</a></li>
+          <li><a href="#">Option 2</a></li>
+          <li><a href="#">Option 3</a></li>
+        </ul>
+        <h2>Trier par :</h2>
+        <select>
+          <option value="price">Prix</option>
+          <option value="name">Nom</option>
+          <option value="date">Date d'ajout</option>
+        </select>
+      </div>
+      <div class="content">
+        <div class="product-grid">
+          <div class="product-card">produit</div>
+          <div class="product-card">produit</div>
+          <div class="product-card">produit</div>
+          <div class="product-card">produit</div>
+          <div class="product-card">produit</div>
+          <div class="product-card">produit</div>
+          <div class="product-card">produit</div>
+          <div class="product-card">produit</div>
+          <div class="product-card">produit</div>
+        </div>
+        <footer>
+          <p>@Anry Rinma, 2023</p>
+        </footer>
+      </div>
+    </main>
+  </body>
 </html>
