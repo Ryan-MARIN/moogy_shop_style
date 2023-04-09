@@ -1,43 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <title>Ma grille de produits</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
     <header>
+      <div class="logo"><img alt="logo" src="../img/moogy_logo.png" /></div>
       <div class="search-bar">
-        <input type="text" placeholder="Recherche..." />
-        <button><i class="fa fa-search"></i></button>
+        <div>
+          <input type="text" placeholder="Recherche..." />
+          <img alt="loupe" src="../img/search.png" />
+        </div>
       </div>
     </header>
     <main>
-      <div class="filters">
-        <h2>Filtrer par :</h2>
-        <ul>
-          <li><a href="#">Option 1</a></li>
-          <li><a href="#">Option 2</a></li>
-          <li><a href="#">Option 3</a></li>
-        </ul>
-        <h2>Trier par :</h2>
-        <select>
-          <option value="price">Prix</option>
-          <option value="name">Nom</option>
-          <option value="date">Date d'ajout</option>
-        </select>
+      <div class="drawer">
+        <div>
+          <div class="filters">
+            <h2>Filtrer par :</h2>
+            <div class="checkbox-group">
+              <input type="checkbox" name="option1" value="Option 1" />
+              <span>Favoris</span>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" name="option2" value="Option 2" />
+              <span>Type :</span>
+            </div>
+            <div class="checkbox-group">
+              <input type="checkbox" name="option3" value="Option 3" />
+              <span>Prix :</span>
+            </div>
+            <h2>Trier par :</h2>
+            <div class="radio-group">
+              <input type="radio" name="sort" value="price" />
+              <span>Prix</span>
+            </div>
+            <div class="radio-group">
+              <input type="radio" name="sort" value="name" />
+              <span>Nom</span>
+            </div>
+            <div class="radio-group">
+              <input type="radio" name="sort" value="name" />
+              <span>Type</span>
+            </div>
+            <div class="radio-group">
+              <input type="radio" name="sort" value="date" />
+              <span>Date d'ajout</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="content">
-        <div class="product-grid">
-          <div class="product-card">produit</div>
-          <div class="product-card">produit</div>
-          <div class="product-card">produit</div>
-          <div class="product-card">produit</div>
-          <div class="product-card">produit</div>
-          <div class="product-card">produit</div>
-          <div class="product-card">produit</div>
-          <div class="product-card">produit</div>
-          <div class="product-card">produit</div>
+      <div class="corps">
+        <div class="content">
+          <div class="product-grid">
+            <div class="product-card">produit1</div>
+            <div class="product-card">produit2</div>
+            <div class="product-card">produit3</div>
+            <div class="product-card">produit4</div>
+            <div class="product-card">produit5</div>
+            <div class="product-card">produit6</div>
+            <div class="product-card">produit7</div>
+            <div class="product-card">produit8</div>
+            <div class="product-card">produit9</div>
+            <div class="product-card">produit10</div>
+            <div class="product-card">produit11</div>
+            <div class="product-card">produit12</div>
+          </div>
         </div>
         <footer>
           <p>@Anry Rinma, 2023</p>
