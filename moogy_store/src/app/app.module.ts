@@ -15,7 +15,7 @@ import { SearchFilterPipe } from 'src/pipes/search-filter.pipe';
     AppComponent,
     ProductCardComponent,
     ProductsGridComponent,
-    SearchFilterPipe
+    SearchFilterPipe,
   ],
   imports: [
     HttpClientModule,

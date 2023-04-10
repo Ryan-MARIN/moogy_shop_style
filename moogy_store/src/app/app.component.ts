@@ -9,8 +9,9 @@ import typesJSON from '../assets/data/types.json';
 export class AppComponent {
   types = typesJSON;
   searchQuery: string = '';
+  selectedFilter: string = '';
 
   onQueryChange(event: any) {
-    console.log("searchQuery >>> " + this.searchQuery);
+    console.log("selectedFilter >>> " + this.selectedFilter);
   }
 }

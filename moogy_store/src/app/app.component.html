@@ -21,7 +21,6 @@
           type="text"
           placeholder="Recherche..."
           [(ngModel)]="searchQuery"
-          (ngModelChange)="onQueryChange($event)"
         />
         <img alt="loupe" src="../assets/img/site/search.png" />
       </div>
@@ -29,6 +28,14 @@
   </header>
   <main>
     <div class="drawer">
+      <div class="alert">
+        J'ai voulu ajouter quelques éléments, mais je n'ai pas eu le temps
+        d'implémenter :
+        <ul>
+          <li>Le ststème de notation par étoiles</li>
+          <li>Les différents filtres.</li>
+        </ul>
+      </div>
       <h2>FILTRER</h2>
       <div>
         <div class="checkbox-group">
@@ -70,26 +77,51 @@
       <h2>TRIER</h2>
       <div>
         <div class="radio-group">
-          <input type="radio" name="sort" value="price" />
+          <input
+            type="radio"
+            name="sort"
+            value="price"
+            [(ngModel)]="selectedFilter"
+            (ngModelChange)="onQueryChange($event)"
+          />
           <label>Prix</label>
         </div>
         <div class="radio-group">
-          <input type="radio" name="sort" value="name" />
+          <input
+            type="radio"
+            name="sort"
+            value="name"
+            [(ngModel)]="selectedFilter"
+            (ngModelChange)="onQueryChange($event)"
+          />
           <label>Nom</label>
         </div>
         <div class="radio-group">
-          <input type="radio" name="sort" value="name" />
+          <input
+            type="radio"
+            name="sort"
+            value="type"
+            [(ngModel)]="selectedFilter"
+            (ngModelChange)="onQueryChange($event)"
+          />
           <label>Type</label>
         </div>
         <div class="radio-group">
-          <input type="radio" name="sort" value="date" checked />
+          <input
+            type="radio"
+            name="sort"
+            value="date"
+            checked
+            [(ngModel)]="selectedFilter"
+            (ngModelChange)="onQueryChange($event)"
+          />
           <label>Date d'ajout</label>
         </div>
       </div>
     </div>
     <div class="corps">
       <div class="content">
-        <app-products-grid searchQuery="{{searchQuery}}"></app-products-grid>
+        <app-products-grid searchQuery="{{ searchQuery }}"></app-products-grid>
       </div>
       <footer>
         <div>@Anry Rinma, 2023</div>

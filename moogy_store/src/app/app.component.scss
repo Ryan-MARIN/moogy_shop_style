@@ -1,4 +1,4 @@
-@import '../colors.scss';
+@import "../colors.scss";
 
 header {
   background-color: $primary-light;
@@ -86,6 +86,20 @@ main {
   * {
     color: $white;
   }
+  .alert {
+    color: $tertiary;
+    background-color: $primary-light;
+    padding: 8px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    border-radius: 8px;
+    & * {
+      color: $tertiary;
+      margin-bottom: 0px;
+      margin-top: 8px;
+    }
+  }
+
   .checkbox-group {
     & + .complement {
       padding-left: 38px;
@@ -109,9 +123,6 @@ main {
       & > select {
         border-style: none;
       }
-    }
-    .select-div {
-      background-color: red;
     }
     input[type="checkbox"] {
       -webkit-appearance: none;
