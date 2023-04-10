@@ -2,9 +2,11 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>Ma grille de produits</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Moogy Store</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/common.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
   </head>
   <body>
     <header>
@@ -12,66 +14,110 @@
       <div class="search-bar">
         <div>
           <input type="text" placeholder="Recherche..." />
-          <img alt="loupe" src="../img/search.png" />
+          <img alt="loupe" src="../img/site/search.png" />
         </div>
       </div>
     </header>
     <main>
       <div class="drawer">
+        <h2>FILTRER</h2>
         <div>
-          <div class="filters">
-            <h2>Filtrer par :</h2>
-            <div class="checkbox-group">
-              <input type="checkbox" name="option1" value="Option 1" />
-              <span>Favoris</span>
-            </div>
+          <div class="checkbox-group">
+            <input type="checkbox" name="option1" value="Option 1" />
+            <label>Favoris</label>
+          </div>
+          <div>
             <div class="checkbox-group">
               <input type="checkbox" name="option2" value="Option 2" />
-              <span>Type :</span>
+              <label>Type&nbsp;:</label>
             </div>
+            <div class="complement">
+              <select>
+                <option value="option1">Figurine</option>
+                <option value="option2">Accessoire</option>
+                <option value="option3">Décoration</option>
+              </select>
+            </div>
+          </div>
+          <div>
             <div class="checkbox-group">
               <input type="checkbox" name="option3" value="Option 3" />
-              <span>Prix :</span>
+              <label>Prix&nbsp;:</label>
             </div>
-            <h2>Trier par :</h2>
-            <div class="radio-group">
-              <input type="radio" name="sort" value="price" />
-              <span>Prix</span>
+            <div class="complement">
+              <div class="price">
+                de&nbsp;
+                <input type="number" min="0" value="0" />
+                &nbsp;€
+              </div>
+              <div class="price">
+                à&nbsp;
+                <input type="number" min="0" value="500" />
+                &nbsp;€
+              </div>
             </div>
-            <div class="radio-group">
-              <input type="radio" name="sort" value="name" />
-              <span>Nom</span>
-            </div>
-            <div class="radio-group">
-              <input type="radio" name="sort" value="name" />
-              <span>Type</span>
-            </div>
-            <div class="radio-group">
-              <input type="radio" name="sort" value="date" />
-              <span>Date d'ajout</span>
-            </div>
+          </div>
+        </div>
+        <h2>TRIER</h2>
+        <div>
+          <div class="radio-group">
+            <input type="radio" name="sort" value="price" />
+            <label>Prix</label>
+          </div>
+          <div class="radio-group">
+            <input type="radio" name="sort" value="name" checked />
+            <label>Nom</label>
+          </div>
+          <div class="radio-group">
+            <input type="radio" name="sort" value="name" />
+            <label>Type</label>
+          </div>
+          <div class="radio-group">
+            <input type="radio" name="sort" value="date" />
+            <label>Date d'ajout</label>
           </div>
         </div>
       </div>
       <div class="corps">
         <div class="content">
           <div class="product-grid">
-            <div class="product-card">produit1</div>
-            <div class="product-card">produit2</div>
-            <div class="product-card">produit3</div>
-            <div class="product-card">produit4</div>
-            <div class="product-card">produit5</div>
-            <div class="product-card">produit6</div>
-            <div class="product-card">produit7</div>
-            <div class="product-card">produit8</div>
-            <div class="product-card">produit9</div>
-            <div class="product-card">produit10</div>
-            <div class="product-card">produit11</div>
-            <div class="product-card">produit12</div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
+            <div class="product-card">
+              <iframe src="./product-card.html" width="100%" height="100%"></iframe>
+            </div>
           </div>
         </div>
         <footer>
-          <p>@Anry Rinma, 2023</p>
+          <div>@Anry Rinma, 2023</div>
         </footer>
       </div>
     </main>

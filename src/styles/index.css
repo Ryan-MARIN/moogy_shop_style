@@ -1,0 +1,266 @@
+:root {
+  --primary-light: #151a25;
+  --primary: #0d111c;
+  --secondary: #ffc01d;
+  --tertiary: #ed1c24;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+/* header */
+
+header {
+  background-color: var(--primary-light);
+  color: var(--white) f;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+header .logo {
+  width: 100%;
+  max-width: 250px;
+  padding: 15px;
+  display: flex;
+  justify-content: left;
+}
+
+header img {
+  max-width: 220;
+  max-height: 50;
+  height: auto;
+}
+
+header .search-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+header .search-bar div {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 650px;
+  background-color: var(--white);
+}
+
+header .search-bar input[type="text"] {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+}
+
+header .search-bar img {
+  width: 20px;
+  height: auto;
+}
+/* end header */
+
+main {
+  display: flex;
+  height: calc(100% - 80px);
+  width: 100%;
+}
+
+/* drawer */
+
+.drawer::-webkit-scrollbar-thumb,
+.drawer ::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+  border: 4px var(--primary) solid;
+}
+
+.drawer::-webkit-scrollbar-corner,
+.drawer ::-webkit-scrollbar-corner {
+  background-color: var(--primary);
+}
+
+.drawer {
+  background-color: var(--primary);
+  padding: 20px;
+  width: 100%;
+  max-width: 250px;
+  min-width: 200px;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+
+.drawer h2 {
+  margin-bottom: 10px;
+}
+
+.drawer>div {
+  margin-bottom: 50px;
+}
+
+.drawer * {
+  color: var(--white);
+}
+
+.drawer .complement select,
+.drawer .complement select option,
+.drawer .complement input {
+  color: var(--black);
+}
+
+.drawer .checkbox-group,
+.drawer .radio-group {
+  display: flex;
+  align-items: center;
+}
+
+.drawer .checkbox-group label,
+.drawer .radio-group label {
+  margin-bottom: -4%;
+}
+
+.drawer .checkbox-group + .complement select {
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.drawer .checkbox-group .select-div {
+  background-color: red;
+}
+
+.drawer .checkbox-group + .complement {
+  padding-left: 38px;
+}
+
+.drawer .checkbox-group + .complement > .price {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.drawer .checkbox-group + .complement > .price input {
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+  border-style: none;
+  padding: 4px;
+}
+
+.drawer .checkbox-group input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: var(--white);
+  border-radius: 8px;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  margin: 10px 0px;
+  margin-right: 8px;
+  vertical-align: middle;
+  position: relative;
+  top: 3px;
+}
+
+.drawer .checkbox-group input[type="checkbox"]:checked::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: var(--secondary);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.drawer .radio-group input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  margin: 10px 0px;
+  margin-right: 8px;
+  vertical-align: middle;
+  position: relative;
+  top: 3px;
+}
+
+.drawer .radio-group input[type="radio"]:checked::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--secondary);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* end drawer */
+
+.corps {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* content */
+
+.content {
+  overflow: auto;
+  flex-grow: 1;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  overflow: auto;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: var(--white);
+  box-shadow: 0px 0px 25px rgba(21, 26, 37, 0.25);
+  margin: 20px;
+  height: 250px;
+  max-width: 450px;
+  min-width: 350px;
+  width: 100%;
+}
+
+/* end content */
+
+/* footer */
+
+footer {
+  background-color: var(--primary-light);
+  color: var(--white);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+footer div {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* end footer */

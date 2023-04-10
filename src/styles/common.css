@@ -1,0 +1,72 @@
+:root {
+  --primary-light: #151a25;
+  --primary: #0d111c;
+  --secondary: #ffc01d;
+  --tertiary: #ed1c24;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+@font-face {
+  font-family: "Lexend Exa";
+  src: url("../fonts/LexendExa-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lexend Exa";
+  src: url("../fonts/LexendExa-Black.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* global */
+
+*,
+input,
+::placeholder {
+  box-sizing: border-box;
+  font-family: "Lexend Exa";
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border: 4px var(--white) solid;
+  padding: 5px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: var(--white);
+}
+
+iframe {
+  border-style: none;
+}
+/* end global */
