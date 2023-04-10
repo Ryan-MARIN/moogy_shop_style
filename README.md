@@ -1,4 +1,4 @@
-# moogy_store
+# Moogy Store
 
 Bienvenue sur Moogy Store, votre destination en ligne pour tous les produits One Piece ! Notre site offre une large sélection de produits dérivés de la célèbre série manga et anime, allant des figurines et des t-shirts aux porte-clés et aux mugs.
 
