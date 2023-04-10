@@ -2,6 +2,7 @@
   --primary-light: #151a25;
   --primary: #0d111c;
   --secondary: #ffc01d;
+  --secondary-dark: #f7ab09;
   --tertiary: #ed1c24;
   --white: #ffffff;
   --black: #000000;
@@ -16,6 +17,18 @@ header {
   height: 80px;
   display: flex;
   flex-direction: row;
+  overflow-x: auto;
+}
+
+header::-webkit-scrollbar-thumb,
+header ::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+  border: 4px var(--primary-light) solid;
+}
+
+header::-webkit-scrollbar-corner,
+header ::-webkit-scrollbar-corner {
+  background-color: var(--primary-light);
 }
 
 header .logo {
@@ -65,6 +78,7 @@ main {
   display: flex;
   height: calc(100% - 80px);
   width: 100%;
+  overflow-x: auto;
 }
 
 /* drawer */
@@ -171,7 +185,7 @@ main {
   min-width: 20px;
   height: 20px;
   border-radius: 4px;
-  background-color: var(--secondary);
+  background-color: var(--secondary-dark);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -202,7 +216,7 @@ main {
   min-width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: var(--secondary);
+  background-color: var(--secondary-dark);
   position: absolute;
   top: 50%;
   left: 50%;

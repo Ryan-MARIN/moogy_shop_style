@@ -9,14 +9,14 @@
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/LexendExa-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/LexendExa-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Lexend Exa";
-  src: url("../fonts/LexendExa-Black.ttf") format("truetype");
+  src: url("../assets/fonts/LexendExa-Black.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -38,6 +38,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow: hidden;
 }
 
 input:focus,
