@@ -1,9 +1,4 @@
-$primary-light: #151a25;
-$primary: #0d111c;
-$secondary: #ffc01d;
-$tertiary: #ed1c24;
-$white: #ffffff;
-$black: #000000;
+@import "../../colors.scss";
 
 .container {
   display: flex;
@@ -23,6 +18,9 @@ $black: #000000;
     z-index: 10;
     border-radius: 0px 8px 8px 0px;
     box-shadow: 0px 5px 15px rgba(21, 26, 37, 0.3);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
@@ -46,8 +44,30 @@ $black: #000000;
     align-items: center;
     justify-content: space-between;
 
-    .notation .star-5 {
-      fill: $white;
+    .notation {
+      button {
+        padding: 2px;
+        margin: 0;
+        background-color: transparent;
+        border-style: none;
+        cursor: pointer;
+        path {
+          fill: $white;
+        }
+        .rated {
+          fill: $secondary;
+        }
+      }
+    }
+
+    .favorite {
+      margin: 0;
+      path {
+        fill: $white;
+      }
+      .yes {
+        fill: $tertiary;
+      }
     }
   }
 

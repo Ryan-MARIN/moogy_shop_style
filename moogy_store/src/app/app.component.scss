@@ -1,10 +1,4 @@
-$primary-light: #151a25;
-$primary: #0d111c;
-$secondary: #ffc01d;
-$secondary-dark: #f7ab09;
-$tertiary: #ed1c24;
-$white: #ffffff;
-$black: #000000;
+@import '../colors.scss';
 
 header {
   background-color: $primary-light;
@@ -47,7 +41,7 @@ header {
     }
     img {
       width: 20px;
-      height: auto;
+      height: 20px;
     }
   }
 }
@@ -205,26 +199,12 @@ main {
   flex-direction: column;
   height: 100%;
 }
+
 .content {
   overflow: auto;
   flex-grow: 1;
 }
-.product-grid {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  overflow: auto;
-  justify-content: center;
-}
-.product-card {
-  background-color: $white;
-  box-shadow: 0px 0px 25px rgba(21, 26, 37, 0.25);
-  margin: 20px;
-  height: 250px;
-  max-width: 450px;
-  min-width: 350px;
-  width: 100%;
-}
+
 footer {
   background-color: $primary-light;
   color: $white;

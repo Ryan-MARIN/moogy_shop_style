@@ -1,0 +1,19 @@
+@import "../../colors.scss";
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  overflow: auto;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: $white;
+  box-shadow: 0px 0px 25px rgba(21, 26, 37, 0.25);
+  margin: 20px;
+  height: 250px;
+  max-width: 450px;
+  min-width: 350px;
+  width: 100%;
+}

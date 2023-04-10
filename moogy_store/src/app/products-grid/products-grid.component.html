@@ -1,0 +1,11 @@
+<div class="product-grid">
+  <div class="product-card" *ngFor="let product of products | searchFilter: searchQuery">
+    <app-product-card
+      [title]="product.name"
+      [image]="product.image"
+      [date]="product.date"
+      [type]="product.type"
+      [price]="product.price"
+    ></app-product-card>
+  </div>
+</div>
