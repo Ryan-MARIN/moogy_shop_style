@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "date": "28/03/2023",
+    "date": "2023/03/28",
     "name": "Thousand Sunny — Grand Ship Collection",
     "type": "Figurine",
     "price": 40.00,
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "date": "29/03/2023",
+    "date": "2023/03/29",
     "name": "Peluche Luffy — Sakami Merchandise",
     "type": "Peluche",
     "price": 19.60,
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "date": "12/04/2023",
+    "date": "2023/04/12",
     "name": "Perona CODE:B — Banpresto",
     "type": "Figurine",
     "price": 27.00,
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "date": "19/04/2023",
+    "date": "2023/04/19",
     "name": "Figurine Ener — Jimei Palace",
     "type": "Figurine",
     "price": 110.00,
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "date": "02/05/2023",
+    "date": "2023/05/02",
     "name": "Chapeau de paille",
     "type": "Accessoire",
     "price": 12.00,
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "date": "19/05/2023",
+    "date": "2023/05/19",
     "name": "Porte-clé Jolly Roger rotatif",
     "type": "Accessoire",
     "price": 8.00,
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "date": "30/05/2023",
+    "date": "2023/05/30",
     "name": "Porte-clef Chapeau de paille",
     "type": "Accessoire",
     "price": 8.50,
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "date": "08/06/2023",
+    "date": "2023/06/08",
     "name": "Lampe Fruit du Gum Gum",
     "type": "Décoration",
     "price": 18.00,
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "date": "14/06/2023",
+    "date": "2023/06/14",
     "name": "Bague métallique Luffy",
     "type": "Accessoire",
     "price": 12.40,
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "date": "30/06/2023",
+    "date": "2023/06/30",
     "name": "Pins Jolly Roger",
     "type": "Accessoire",
     "price": 6.90,

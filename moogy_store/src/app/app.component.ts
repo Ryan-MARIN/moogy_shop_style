@@ -9,9 +9,9 @@ import typesJSON from '../assets/data/types.json';
 export class AppComponent {
   types = typesJSON;
   searchQuery: string = '';
-  selectedFilter: string = '';
+  orderQuery: string = 'date';
 
   onQueryChange(event: any) {
-    console.log("selectedFilter >>> " + this.selectedFilter);
+    console.log("selectedFilter >>> " + this.orderQuery);
   }
 }

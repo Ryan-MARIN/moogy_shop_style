@@ -1,4 +1,4 @@
-import { Component, Input, SimpleChanges } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -8,6 +8,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProductsGridComponent {
   @Input() searchQuery: string = '';
+  @Input() orderQuery: string = '';
+
   products: any[] = [];
 
   constructor(private http: HttpClient) {}
@@ -17,7 +19,4 @@ export class ProductsGridComponent {
       this.products = data;
     });
   }
-
-
-  private _searchQuery: string = '';
 }

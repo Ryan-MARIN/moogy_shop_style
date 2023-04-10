@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductsGridComponent } from './products-grid/products-grid.component';
 import { FormsModule } from '@angular/forms';
 import { SearchFilterPipe } from 'src/pipes/search-filter.pipe';
+import { OrderByPipe } from 'src/pipes/order-by.pipe';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { SearchFilterPipe } from 'src/pipes/search-filter.pipe';
     ProductCardComponent,
     ProductsGridComponent,
     SearchFilterPipe,
+    OrderByPipe
   ],
   imports: [
     HttpClientModule,

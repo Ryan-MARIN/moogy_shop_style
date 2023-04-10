@@ -29,11 +29,11 @@
   <main>
     <div class="drawer">
       <div class="alert">
-        J'ai voulu ajouter quelques éléments, mais je n'ai pas eu le temps
-        d'implémenter :
+        Ne fonctionne pas :
         <ul>
-          <li>Le ststème de notation par étoiles</li>
-          <li>Les différents filtres.</li>
+          <li>[Obligatoire] Mise en favori</li>
+          <li>[Bonus] Système de notation par étoiles</li>
+          <li>[Bonus] Filtres</li>
         </ul>
       </div>
       <h2>FILTRER</h2>
@@ -81,7 +81,7 @@
             type="radio"
             name="sort"
             value="price"
-            [(ngModel)]="selectedFilter"
+            [(ngModel)]="orderQuery"
             (ngModelChange)="onQueryChange($event)"
           />
           <label>Prix</label>
@@ -91,7 +91,7 @@
             type="radio"
             name="sort"
             value="name"
-            [(ngModel)]="selectedFilter"
+            [(ngModel)]="orderQuery"
             (ngModelChange)="onQueryChange($event)"
           />
           <label>Nom</label>
@@ -101,7 +101,7 @@
             type="radio"
             name="sort"
             value="type"
-            [(ngModel)]="selectedFilter"
+            [(ngModel)]="orderQuery"
             (ngModelChange)="onQueryChange($event)"
           />
           <label>Type</label>
@@ -111,9 +111,9 @@
             type="radio"
             name="sort"
             value="date"
-            checked
-            [(ngModel)]="selectedFilter"
+            [(ngModel)]="orderQuery"
             (ngModelChange)="onQueryChange($event)"
+            checked
           />
           <label>Date d'ajout</label>
         </div>
@@ -121,7 +121,7 @@
     </div>
     <div class="corps">
       <div class="content">
-        <app-products-grid searchQuery="{{ searchQuery }}"></app-products-grid>
+        <app-products-grid searchQuery="{{ searchQuery }}" orderQuery="{{ orderQuery }}"></app-products-grid>
       </div>
       <footer>
         <div>@Anry Rinma, 2023</div>

@@ -1,5 +1,5 @@
 <div class="product-grid">
-  <div class="product-card" *ngFor="let product of products | searchFilter: searchQuery">
+  <div class="product-card" *ngFor="let product of products | searchFilter: searchQuery | orderBy : orderQuery ">
     <app-product-card
       [title]="product.name"
       [image]="product.image"
