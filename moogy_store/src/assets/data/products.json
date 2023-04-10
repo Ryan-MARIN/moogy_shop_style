@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "date": "28/03/2023",
+        "name": "Thousand Sunny — Grand Ship Collection",
+        "type": "figurine",
+        "price": 40.00,
+        "image": "https://cdn.shopify.com/s/files/1/0554/4886/2920/products/figurine-du-thousand-sunny-one-piece-740_1024x1024@2x.jpg?v=1644944046",
+        "description": "Cette figurine représente le bateau emblématique de l'équipage de Luffy, le Thousand Sunny. Avec ses détails minutieux et sa finition soignée, elle est un véritable must-have pour tout fan de One Piece."
+    },
+    {
+        "id": 2,
+        "date": "28/03/2023",
+        "name": "Peluche Luffy — Sakami Merchandise",
+        "type": "peluche",
+        "price": 19.60,
+        "image": "https://fr.shopping.rakuten.com/photo/2120289372_L.jpg",
+        "description": "Cette peluche représente Monkey D. Luffy, le capitaine charismatique de l'équipage au Chapeau de Paille. Avec son chapeau emblématique et son sourire espiègle, elle est l'objet parfait pour décorer votre chambre ou votre bureau."
+    },
+    {
+        "id": 3,
+        "date": "28/03/2023",
+        "name": "Perona CODE:B — Banpresto",
+        "type": "figurine",
+        "price": 27.00,
+        "image": "https://down-th.img.susercontent.com/file/1502423369335f58a45b6fc531cd88d4",
+        "description": "Cette figurine représente Perona, l'une des antagonistes de l'arc Thriller Bark de One Piece. Avec son design unique et sa pose élégante, elle est un must-have pour tout collectionneur de figurines."
+    },
+    {
+        "id": 4,
+        "date": "28/03/2023",
+        "name": "Figurine Ener — Jimei Palace",
+        "type": "figurine",
+        "price": 110.00,
+        "image": "https://www.kaionation.com/wp-content/uploads/2022/04/EwhPkrYXMAMBP00.jpg",
+        "description": "Cette figurine représente l'un des ennemis les plus emblématiques de la série animée One Piece. Avec ses détails finement sculptés et sa posture imposante, elle sera un ajout impressionnant à votre collection."
+    },
+    {
+        "id": 5,
+        "date": "28/03/2023",
+        "name": "Chapeau de paille",
+        "type": "accessoire",
+        "price": 12.00,
+        "image": "https://ae01.alicdn.com/kf/H93e27c5219fe4fa1a6514c9770607987a/Femme-Chapeau-de-Paille-Jaune-Luffy-de-31-ou-35cm-pour-Soleil-d-t-Accessoires-de.jpg",
+        "description": "Revivez les aventures de Monkey D. Luffy avec ce chapeau emblématique porté par le personnage principal de One Piece. Fabriqué à partir de matériaux de qualité, il est idéal pour les cosplay ou pour afficher votre passion pour la série."
+    },
+    {
+        "id": 6,
+        "date": "28/03/2023",
+        "name": "Porte-clé Jolly Roger rotatif",
+        "type": "accessoire",
+        "price": 8.00,
+        "image": "https://ae01.alicdn.com/kf/HTB1xAt8lQ9WBuNjSspeq6yz5VXaL/H-F-porte-cl-s-en-alliage-Luffy-paille-chapeau-t-te-de-mort-Anime-japonais.jpg_Q90.jpg_.webp",
+        "description": "Affichez votre amour pour One Piece avec ce porte-clé en forme de Jolly Roger, symbole de l'équipage de Monkey D. Luffy. Avec son design détaillé et sa qualité de fabrication supérieure, il sera un ajout parfait à votre collection de porte-clés."
+    },
+    {
+        "id": 7,
+        "date": "28/03/2023",
+        "name": "Porte-clef Chapeau de paille",
+        "type": "accessoire",
+        "price": 8.50,
+        "image": "https://ae01.alicdn.com/kf/Sd10e7aa5c7a14c1fb0973c21448ea817G.jpg",
+        "description": "Ce porte-clé en forme de chapeau de paille, symbole emblématique de Monkey D. Luffy, est un accessoire incontournable pour tout fan de One Piece. Avec sa qualité de fabrication supérieure et ses détails minutieux, il est parfait pour l'affichage ou l'utilisation quotidienne."
+    },
+    {
+        "id": 8,
+        "date": "28/03/2023",
+        "name": "Lampe Fruit du Gum Gum",
+        "type": "décoration",
+        "price": 18.00,
+        "image": "https://ae01.alicdn.com/kf/S115024d572c24b78b7444c4efafb93c1w/Figurine-d-action-ya-mi-Ya-mi-no-une-pi-ce-Collection-Luffy-gomme-Fruit-Lu.jpg_Q90.jpg_.webp",
+        "description": "Éclairez votre vie avec cette lampe Fruit du Gum Gum inspirée de l'un des pouvoirs de Monkey D. Luffy. Avec sa lumière douce et sa forme unique, elle est un choix parfait pour la décoration de chambre ou de bureau pour les fans de One Piece."
+    },
+    {
+        "id": 9,
+        "date": "28/03/2023",
+        "name": "Bague métallique Luffy",
+        "type": "accessoire",
+        "price": 12.40,
+        "image": "https://ae01.alicdn.com/kf/Sc02fad45ecd74afdbf61866d5e4c2fe7c/Monkey-D-Luffy-Bague-une-pi-ce-en-m-tal-pour-femmes-bijou-de-mariage-la.jpg_Q90.jpg_.webp",
+        "description": "Montrez votre passion pour One Piece avec cette bague en métal de qualité supérieure représentant Monkey D. Luffy. Avec ses détails fins et son design élégant, cette bague sera un ajout parfait à votre collection de bijoux."
+    },
+    {
+        "id": 10,
+        "date": "28/03/2023",
+        "name": "Pins Jolly Roger",
+        "type": "accessoire",
+        "price": 6.90,
+        "image": "https://ae01.alicdn.com/kf/S10e9f480e1b34783aea3097bba0d549ck.jpg_640x640Q90.jpg",
+        "description": "Ce pin en forme de Jolly Roger, symbole de l'équipage de Monkey D. Luffy, est un incontournable pour tout fan de One Piece. Avec sa qualité de fabrication supérieure et son design détaillé, il est parfait pour la collection de pins ou pour décorer votre sac à dos."
+    }
+]

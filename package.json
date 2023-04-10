@@ -1,0 +1,19 @@
+{
+  "name": "moogy_store",
+  "version": "1.0.0",
+  "description": "A store that sells One Piece merchandise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-MARIN/moogy_store.git"
+  },
+  "author": "Ryan MARIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryan-MARIN/moogy_store/issues"
+  },
+  "homepage": "https://github.com/Ryan-MARIN/moogy_store#readme"
+}
